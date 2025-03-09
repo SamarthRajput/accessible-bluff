@@ -235,6 +235,5 @@ function changeTurn(roomId) {
 }
 
 http.listen(3000, () => {
-  console.log("connected to server");
-}
-)
+  console.log("connected to server at http://localhost:3000");
+})
